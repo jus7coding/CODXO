@@ -17,7 +17,7 @@ A simple and intuitive expense tracking application built with vanilla JavaScrip
 
 ## Screenshots
 
-![EXPENSE TRACKER](https://github.com/user-attachments/assets/d09886f8-e971-42c4-90cc-236cb1e566ed)
+![image](https://github.com/user-attachments/assets/b2f1ecc3-bdf4-4b7d-8c98-58c0b5e2f4dd)
 
 
 ## Installation
