@@ -65,7 +65,7 @@ class ExpenseTracker {
                 </div>
                 <div>
                     <span style="color: ${expense.type === 'income' ? '#2ecc71' : '#e74c3c'}">
-                        ${expense.type === 'income' ? '+' : '-'}$${Math.abs(expense.amount).toFixed(2)}
+                        ${expense.type === 'income' ? '+' : '-'}₹${Math.abs(expense.amount).toFixed(2)}
                     </span>
                     <button class="delete-btn" onclick="expenseTracker.deleteExpense(${expense.id})">×</button>
                 </div>
@@ -74,7 +74,7 @@ class ExpenseTracker {
         });
 
         const balance = this.calculateBalance();
-        this.balanceElement.textContent = `$${balance.toFixed(2)}`;
+        this.balanceElement.textContent = `₹${balance.toFixed(2)}`;
         this.balanceElement.style.color = balance >= 0 ? '#2ecc71' : '#e74c3c';
     }
 }
